@@ -1,0 +1,11 @@
+lesen.txt
+
+Dieses Plugin berechnet ....
+
+1. Installation
+2. Update
+3. Versionshistorie
+4. Systemanforderungen
+
+******************************************************************************
+
