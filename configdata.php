@@ -23,8 +23,8 @@ $config_default['Konfigurationen'] = array(	'col_desc' 		=> array($gL10n->get('P
 																		'p'.$gProfileFields->getProperty('LAST_NAME', 'usf_id').','.
 																		'p'.$gProfileFields->getProperty('ADDRESS', 'usf_id').','.
 																		'p'.$gProfileFields->getProperty('CITY', 'usf_id')),
-											'col_yes'		=> array('ja'),
-											'col_no'		=> array('nein'),
+											'col_yes'		=> array('yes'),
+											'col_no'		=> array('no'),
  											'selection_role'=> array(' '),
 											'selection_cat'	=> array(' ')  );
 															
