@@ -28,6 +28,7 @@ $plugin_folder     = substr(__FILE__, $plugin_folder_pos+1, $plugin_file_pos-$pl
 
 require_once($plugin_path. '/../adm_program/system/common.php');
 require_once($plugin_path. '/'.$plugin_folder.'/common_function.php');
+
 require_once($plugin_path. '/'.$plugin_folder.'/classes/configtable.php'); 
 
 // Einbinden der Sprachdatei
@@ -41,11 +42,11 @@ if(  strpos($gNavigation->getUrl(), 'preferences_function.php?mode=3') === false
 {
 	if ($pPreferences->checkforupdate())
 	{
-		$pPreferences->init();
+		  $pPreferences->init();
 	}
 	else 
 	{
-		$pPreferences->read();
+		  $pPreferences->read();
 	}
 
 	// Zeige Link zum Plugin
