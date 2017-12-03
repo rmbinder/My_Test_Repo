@@ -13,10 +13,10 @@
 global $gL10n, $gProfileFields;
 
 //Standardwerte einer Neuinstallation oder beim Anfuegen einer zusaetzlichen Konfiguration
-$config_default['Pluginfreigabe']['freigabe']        = array(getRole_IDPFF($gL10n->get('SYS_ADMINISTRATOR')),
-													         getRole_IDPFF($gL10n->get('SYS_MEMBER')));    		
-$config_default['Pluginfreigabe']['freigabe_config'] = array(getRole_IDPFF($gL10n->get('SYS_ADMINISTRATOR')),
-															 getRole_IDPFF($gL10n->get('SYS_MEMBER')));    		
+$config_default['Pluginfreigabe']['freigabe'] = array(	getRole_IDPFF($gL10n->get('SYS_ADMINISTRATOR')),
+													getRole_IDPFF($gL10n->get('SYS_MEMBER')));    		
+$config_default['Pluginfreigabe']['freigabe_config'] = array(	getRole_IDPFF($gL10n->get('SYS_ADMINISTRATOR')),
+															getRole_IDPFF($gL10n->get('SYS_MEMBER')));    		
 
 $config_default['Formular'] = array('desc' 			=> array($gL10n->get('PLG_FORMFILLER_PATTERN'),
 															 $gL10n->get('PLG_FORMFILLER_ENVELOPE'),
@@ -28,19 +28,19 @@ $config_default['Formular'] = array('desc' 			=> array($gL10n->get('PLG_FORMFILL
  									'labels'		=> array('','1,0,1,0','3,50,7,40'),
  									'fields'		=> array(array(	'p'.$gProfileFields->getProperty('FIRST_NAME', 'usf_id'),
 																	'p'.$gProfileFields->getProperty('LAST_NAME', 'usf_id'),
-																	'p'.$gProfileFields->getProperty('STREET', 'usf_id'),
+																	'p'.$gProfileFields->getProperty('ADDRESS', 'usf_id'),
  																	'p'.$gProfileFields->getProperty('POSTCODE', 'usf_id'),
 																	'p'.$gProfileFields->getProperty('CITY', 'usf_id'),
 																	'vdummy'),
 															 array(	'p'.$gProfileFields->getProperty('FIRST_NAME', 'usf_id'),
 																	'p'.$gProfileFields->getProperty('LAST_NAME', 'usf_id'),
-																	'p'.$gProfileFields->getProperty('STREET', 'usf_id'),
+																	'p'.$gProfileFields->getProperty('ADDRESS', 'usf_id'),
  																	'p'.$gProfileFields->getProperty('POSTCODE', 'usf_id'),
 																	'p'.$gProfileFields->getProperty('CITY', 'usf_id'),
 																	'p'.$gProfileFields->getProperty('GENDER', 'usf_id')),
 															 array(	'p'.$gProfileFields->getProperty('FIRST_NAME', 'usf_id'),
 																	'p'.$gProfileFields->getProperty('LAST_NAME', 'usf_id'),
-																	'p'.$gProfileFields->getProperty('STREET', 'usf_id'),
+																	'p'.$gProfileFields->getProperty('ADDRESS', 'usf_id'),
  																	'p'.$gProfileFields->getProperty('POSTCODE', 'usf_id'),
 																	'p'.$gProfileFields->getProperty('CITY', 'usf_id'),
 																	'p'.$gProfileFields->getProperty('GENDER', 'usf_id'))
