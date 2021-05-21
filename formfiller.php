@@ -33,7 +33,7 @@ $gL10n->addLanguagePath(ADMIDIO_PATH . FOLDER_PLUGINS . $plugin_folder . '/langu
 
 $pPreferences = new ConfigTablePFF();
 
-$testCommit = 'Test';
+$testCommit = 'changed to PAT';
 
 //Initialisierung und Anzeige des Links nur, wenn vorher keine Deinstallation stattgefunden hat
 // sonst waere die Deinstallation hinfaellig, da hier wieder Default-Werte der config in die DB geschrieben werden
