@@ -36,6 +36,8 @@ if(!check_showpluginPFF($pPreferences->config['Pluginfreigabe']['freigabe_config
 
 $headline = $gL10n->get('PLG_FORMFILLER_FORMFILLER');
 
+
+
 $testValue = 'Test';
 
 $num_configs	 = count($pPreferences->config['Formular']['desc']);
