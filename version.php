@@ -12,3 +12,5 @@
 
 $plugin_version = '2.2.0';
 $plugin_stand   = '14.03.2017';
+
+//test line
