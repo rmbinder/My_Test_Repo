@@ -62,6 +62,8 @@ $zeile = 0;
 $attributes = array();
 $attributesDefault = array();
 
+$halten = true;
+
 $user 		   = new User($gDb, $gProfileFields);
 $relation      = new TableUserRelation($gDb);
 $relationArray = array();
