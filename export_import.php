@@ -23,6 +23,8 @@ require_once(__DIR__ . '/classes/configtable.php');
 $pPreferences = new ConfigTablePFF();
 $pPreferences->read();
 
+// infotext
+
 // only authorized user are allowed to start this module
 if (!check_showpluginPFF($pPreferences->config['Pluginfreigabe']['freigabe_config']))
 {
